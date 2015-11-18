@@ -1,5 +1,5 @@
 //
-//  TabBarController.h
+//  BasicController.h
 //  YouPinv1.0
 //
 //  Created by Jason_Msbaby on 15/11/17.
@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "Constants.h"
+#import <Masonry.h>
 @interface TabBarController : UITabBarController
-
 @end

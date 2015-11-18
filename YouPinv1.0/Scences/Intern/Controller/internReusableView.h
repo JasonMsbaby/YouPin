@@ -1,5 +1,5 @@
 //
-//  TrainController.h
+//  internReusableView.h
 //  YouPinv1.0
 //
 //  Created by lanou3g on 15/11/18.
@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "BasicController.h"
-@interface TrainController : BasicController
 
+@interface internReusableView : UICollectionReusableView
 
 @end
