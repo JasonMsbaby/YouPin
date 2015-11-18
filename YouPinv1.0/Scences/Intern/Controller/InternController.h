@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface InternController : BasicViewController
+#import "BasicController.h"
+@interface InternController : BasicController
 
 @end

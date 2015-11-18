@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface CompanyController : BasicViewController
+#import "BasicController.h"
+@interface CompanyController : BasicController
 
 @end

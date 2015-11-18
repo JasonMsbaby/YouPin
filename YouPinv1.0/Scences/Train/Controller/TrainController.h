@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface TrainController : BasicViewController
+#import "BasicController.h"
+@interface TrainController : BasicController
 
 @end
