@@ -34,7 +34,7 @@
         make.left.equalTo(self).offset(20);
         // 设置公司logo距离cell底部高度
         // 设置公司logo宽高比为1：1
-        make.bottom.equalTo(self).offset(20);
+        make.bottom.equalTo(self).offset(-20);
         make.width.equalTo (companyImageView.mas_height).multipliedBy(1);
     }];
     
@@ -50,6 +50,8 @@
         make.right.equalTo(self).with.offset (-20);
         make.height.equalTo(@20);
     }];
+    
+    // 公司简介
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
