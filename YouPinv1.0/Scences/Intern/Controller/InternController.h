@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import "BasicController.h"
+/**
+ *  实习生
+ */
 @interface InternController : BasicController
 
 @end

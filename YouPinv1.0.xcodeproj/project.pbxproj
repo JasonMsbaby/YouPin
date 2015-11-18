@@ -15,10 +15,8 @@
 		32352AE61BFC59940084B2ED /* daxue@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32352AD21BFC59940084B2ED /* daxue@3x.png */; };
 		32352AE71BFC59940084B2ED /* DX@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32352AD31BFC59940084B2ED /* DX@2x.png */; };
 		32352AE81BFC59940084B2ED /* DX@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32352AD41BFC59940084B2ED /* DX@3x.png */; };
-		32352AE91BFC59940084B2ED /* EDTA@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = 32352AD51BFC59940084B2ED /* EDTA@2X.png */; };
-		32352AEA1BFC59940084B2ED /* EDTA@3X.png in Resources */ = {isa = PBXBuildFile; fileRef = 32352AD61BFC59940084B2ED /* EDTA@3X.png */; };
-		32352AEB1BFC59940084B2ED /* ET@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = 32352AD71BFC59940084B2ED /* ET@2X.png */; };
-		32352AEC1BFC59940084B2ED /* ET@3X.png in Resources */ = {isa = PBXBuildFile; fileRef = 32352AD81BFC59940084B2ED /* ET@3X.png */; };
+		32352AE91BFC59940084B2ED /* EDTA@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32352AD51BFC59940084B2ED /* EDTA@2x.png */; };
+		32352AEA1BFC59940084B2ED /* EDTA@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32352AD61BFC59940084B2ED /* EDTA@3x.png */; };
 		32352AED1BFC59940084B2ED /* geren@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32352AD91BFC59940084B2ED /* geren@2x.png */; };
 		32352AEE1BFC59940084B2ED /* geren@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32352ADA1BFC59940084B2ED /* geren@3x.png */; };
 		32352AEF1BFC59940084B2ED /* ITcmopany@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32352ADB1BFC59940084B2ED /* ITcmopany@2x.png */; };
@@ -51,6 +49,10 @@
 		32A28F6E1BFB477600269C13 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A28F6D1BFB477600269C13 /* MBProgressHUD.m */; };
 		32A28F721BFB478100269C13 /* ColorUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A28F711BFB478100269C13 /* ColorUtils.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		32A28F751BFB4A9300269C13 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A28F741BFB4A9300269C13 /* Constants.m */; };
+		32DA60D11BFC674A00CD3D56 /* YPSchool+YPSchoolCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DA60D01BFC674A00CD3D56 /* YPSchool+YPSchoolCategory.m */; };
+		32DA60D41BFC6FF500CD3D56 /* CompanyPersonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DA60D31BFC6FF500CD3D56 /* CompanyPersonController.m */; };
+		32DA60D71BFC700C00CD3D56 /* InternPersonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DA60D61BFC700C00CD3D56 /* InternPersonController.m */; };
+		32DA60DA1BFC702200CD3D56 /* TrainPersonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DA60D91BFC702200CD3D56 /* TrainPersonController.m */; };
 		607B8B8AF40A27C1285B74E1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7867214710274AF0AB88B78 /* libPods.a */; };
 		C21649001BFC1F0F004D142E /* CompanyController.m in Sources */ = {isa = PBXBuildFile; fileRef = C21648FF1BFC1F0F004D142E /* CompanyController.m */; };
 		C21649031BFC1F28004D142E /* InternController.m in Sources */ = {isa = PBXBuildFile; fileRef = C21649021BFC1F28004D142E /* InternController.m */; };
@@ -66,10 +68,8 @@
 		32352AD21BFC59940084B2ED /* daxue@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "daxue@3x.png"; sourceTree = "<group>"; };
 		32352AD31BFC59940084B2ED /* DX@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DX@2x.png"; sourceTree = "<group>"; };
 		32352AD41BFC59940084B2ED /* DX@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DX@3x.png"; sourceTree = "<group>"; };
-		32352AD51BFC59940084B2ED /* EDTA@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "EDTA@2X.png"; sourceTree = "<group>"; };
-		32352AD61BFC59940084B2ED /* EDTA@3X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "EDTA@3X.png"; sourceTree = "<group>"; };
-		32352AD71BFC59940084B2ED /* ET@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ET@2X.png"; sourceTree = "<group>"; };
-		32352AD81BFC59940084B2ED /* ET@3X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ET@3X.png"; sourceTree = "<group>"; };
+		32352AD51BFC59940084B2ED /* EDTA@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "EDTA@2x.png"; sourceTree = "<group>"; };
+		32352AD61BFC59940084B2ED /* EDTA@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "EDTA@3x.png"; sourceTree = "<group>"; };
 		32352AD91BFC59940084B2ED /* geren@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "geren@2x.png"; sourceTree = "<group>"; };
 		32352ADA1BFC59940084B2ED /* geren@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "geren@3x.png"; sourceTree = "<group>"; };
 		32352ADB1BFC59940084B2ED /* ITcmopany@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ITcmopany@2x.png"; sourceTree = "<group>"; };
@@ -126,6 +126,14 @@
 		32A28F711BFB478100269C13 /* ColorUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorUtils.m; sourceTree = "<group>"; };
 		32A28F731BFB4A9300269C13 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		32A28F741BFB4A9300269C13 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		32DA60CF1BFC674A00CD3D56 /* YPSchool+YPSchoolCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "YPSchool+YPSchoolCategory.h"; path = "YouPinv1.0/YPSchool+YPSchoolCategory.h"; sourceTree = SOURCE_ROOT; };
+		32DA60D01BFC674A00CD3D56 /* YPSchool+YPSchoolCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "YPSchool+YPSchoolCategory.m"; path = "YouPinv1.0/YPSchool+YPSchoolCategory.m"; sourceTree = SOURCE_ROOT; };
+		32DA60D21BFC6FF500CD3D56 /* CompanyPersonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompanyPersonController.h; sourceTree = "<group>"; };
+		32DA60D31BFC6FF500CD3D56 /* CompanyPersonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompanyPersonController.m; sourceTree = "<group>"; };
+		32DA60D51BFC700C00CD3D56 /* InternPersonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InternPersonController.h; sourceTree = "<group>"; };
+		32DA60D61BFC700C00CD3D56 /* InternPersonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InternPersonController.m; sourceTree = "<group>"; };
+		32DA60D81BFC702200CD3D56 /* TrainPersonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainPersonController.h; sourceTree = "<group>"; };
+		32DA60D91BFC702200CD3D56 /* TrainPersonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainPersonController.m; sourceTree = "<group>"; };
 		594110FC83E850BDEA1B18A9 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		B7867214710274AF0AB88B78 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C21648FE1BFC1F0F004D142E /* CompanyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompanyController.h; sourceTree = "<group>"; };
@@ -176,10 +184,8 @@
 				32352AD21BFC59940084B2ED /* daxue@3x.png */,
 				32352AD31BFC59940084B2ED /* DX@2x.png */,
 				32352AD41BFC59940084B2ED /* DX@3x.png */,
-				32352AD51BFC59940084B2ED /* EDTA@2X.png */,
-				32352AD61BFC59940084B2ED /* EDTA@3X.png */,
-				32352AD71BFC59940084B2ED /* ET@2X.png */,
-				32352AD81BFC59940084B2ED /* ET@3X.png */,
+				32352AD51BFC59940084B2ED /* EDTA@2x.png */,
+				32352AD61BFC59940084B2ED /* EDTA@3x.png */,
 				32352AD91BFC59940084B2ED /* geren@2x.png */,
 				32352ADA1BFC59940084B2ED /* geren@3x.png */,
 				32352ADB1BFC59940084B2ED /* ITcmopany@2x.png */,
@@ -388,6 +394,8 @@
 			children = (
 				C21648FE1BFC1F0F004D142E /* CompanyController.h */,
 				C21648FF1BFC1F0F004D142E /* CompanyController.m */,
+				32DA60D21BFC6FF500CD3D56 /* CompanyPersonController.h */,
+				32DA60D31BFC6FF500CD3D56 /* CompanyPersonController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -421,6 +429,8 @@
 			children = (
 				C21649011BFC1F28004D142E /* InternController.h */,
 				C21649021BFC1F28004D142E /* InternController.m */,
+				32DA60D51BFC700C00CD3D56 /* InternPersonController.h */,
+				32DA60D61BFC700C00CD3D56 /* InternPersonController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -435,6 +445,8 @@
 		C21648F91BFC1EFC004D142E /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				32DA60CF1BFC674A00CD3D56 /* YPSchool+YPSchoolCategory.h */,
+				32DA60D01BFC674A00CD3D56 /* YPSchool+YPSchoolCategory.m */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -454,6 +466,8 @@
 			children = (
 				C21649041BFC1F42004D142E /* TrainController.h */,
 				C21649051BFC1F42004D142E /* TrainController.m */,
+				32DA60D81BFC702200CD3D56 /* TrainPersonController.h */,
+				32DA60D91BFC702200CD3D56 /* TrainPersonController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -548,18 +562,16 @@
 				32352AED1BFC59940084B2ED /* geren@2x.png in Resources */,
 				32352AE21BFC59940084B2ED /* center@3x.png in Resources */,
 				32352AF01BFC59940084B2ED /* ITcmopany@3x.png in Resources */,
-				32352AE91BFC59940084B2ED /* EDTA@2X.png in Resources */,
-				32352AEC1BFC59940084B2ED /* ET@3X.png in Resources */,
+				32352AE91BFC59940084B2ED /* EDTA@2x.png in Resources */,
 				32352AF21BFC59940084B2ED /* up@3x.png in Resources */,
 				32352AE71BFC59940084B2ED /* DX@2x.png in Resources */,
 				32352AF31BFC59940084B2ED /* uploading@2x.png in Resources */,
 				32352AE51BFC59940084B2ED /* daxue@2x.png in Resources */,
 				32352AE81BFC59940084B2ED /* DX@3x.png in Resources */,
-				32352AEA1BFC59940084B2ED /* EDTA@3X.png in Resources */,
+				32352AEA1BFC59940084B2ED /* EDTA@3x.png in Resources */,
 				32352AE11BFC59940084B2ED /* center@2x.png in Resources */,
 				32352AEF1BFC59940084B2ED /* ITcmopany@2x.png in Resources */,
 				32352AEE1BFC59940084B2ED /* geren@3x.png in Resources */,
-				32352AEB1BFC59940084B2ED /* ET@2X.png in Resources */,
 				32906C1E1BFB24D6005802AB /* LaunchScreen.storyboard in Resources */,
 				32906C1B1BFB24D6005802AB /* Assets.xcassets in Resources */,
 				32352AE41BFC59940084B2ED /* company@3x.png in Resources */,
@@ -635,8 +647,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				32906C561BFB2909005802AB /* YPCompony.m in Sources */,
+				32DA60DA1BFC702200CD3D56 /* TrainPersonController.m in Sources */,
 				32906C131BFB24D6005802AB /* AppDelegate.m in Sources */,
+				32DA60D71BFC700C00CD3D56 /* InternPersonController.m in Sources */,
 				32906C101BFB24D6005802AB /* main.m in Sources */,
+				32DA60D41BFC6FF500CD3D56 /* CompanyPersonController.m in Sources */,
 				32A28F661BFB474700269C13 /* FMDatabase.m in Sources */,
 				32906C471BFB2845005802AB /* YPSchool.m in Sources */,
 				32A28F6A1BFB474700269C13 /* FMResultSet.m in Sources */,
@@ -645,6 +660,7 @@
 				32906C531BFB28B6005802AB /* YPCity.m in Sources */,
 				32A28F6E1BFB477600269C13 /* MBProgressHUD.m in Sources */,
 				C21649031BFC1F28004D142E /* InternController.m in Sources */,
+				32DA60D11BFC674A00CD3D56 /* YPSchool+YPSchoolCategory.m in Sources */,
 				32906C411BFB2797005802AB /* TabBarController.m in Sources */,
 				32A28F721BFB478100269C13 /* ColorUtils.m in Sources */,
 				32A28F671BFB474700269C13 /* FMDatabaseAdditions.m in Sources */,

@@ -8,6 +8,7 @@
 #import <AVOSCloud.h>
 #import <AVObject+Subclass.h>
 #import <Foundation/Foundation.h>
+#import "Constants.h"
 
 @interface BasicModel : AVObject <AVSubclassing>
 

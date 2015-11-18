@@ -5,8 +5,13 @@
 //  Created by Jason_Msbaby on 15/11/17.
 //  Copyright © 2015年 张杰. All rights reserved.
 //
-
+#import "ColorUtils.h"
 #import <Foundation/Foundation.h>
+
+#define color_white @"000000"
+#define color_background @""
+
+
 
 @interface Constants : NSObject
 

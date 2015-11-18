@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "Constants.h"
 @interface BasicController : UIViewController
 //ID主键
 @property(nonatomic,strong) NSString *ID;

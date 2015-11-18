@@ -67,13 +67,13 @@ static NSMutableArray *classNameTemp;
  *  @return 返回对象实例
  */
 + (id)objectByAVObject:(AVObject *)object classType:(NSString *)classType{
+    
     Class c = NSClassFromString(classType);
     BasicModel *classInstance = [c object];
     
     [[self attribbutes] enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         id value = [object objectForKey:obj];
         [classInstance setObject:value forKey:obj];
-//        NSLog(@"%@",classInstance);
     }];
     return classInstance;
 }
