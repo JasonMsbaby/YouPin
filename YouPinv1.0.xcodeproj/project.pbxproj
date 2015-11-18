@@ -55,6 +55,10 @@
 		C21649001BFC1F0F004D142E /* CompanyController.m in Sources */ = {isa = PBXBuildFile; fileRef = C21648FF1BFC1F0F004D142E /* CompanyController.m */; };
 		C21649031BFC1F28004D142E /* InternController.m in Sources */ = {isa = PBXBuildFile; fileRef = C21649021BFC1F28004D142E /* InternController.m */; };
 		C21649061BFC1F42004D142E /* TrainController.m in Sources */ = {isa = PBXBuildFile; fileRef = C21649051BFC1F42004D142E /* TrainController.m */; };
+		C26A343B1BFCB77F00884F67 /* internReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C26A343A1BFCB77F00884F67 /* internReusableView.m */; };
+		C26A343E1BFCB87A00884F67 /* InternViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C26A343D1BFCB87A00884F67 /* InternViewCell.m */; };
+		C26A34411BFCBE9C00884F67 /* StudetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C26A34401BFCBE9C00884F67 /* StudetViewController.m */; };
+		C26A34441BFCBF9400884F67 /* StudentViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C26A34431BFCBF9400884F67 /* StudentViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -138,6 +142,14 @@
 		C21649021BFC1F28004D142E /* InternController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InternController.m; sourceTree = "<group>"; };
 		C21649041BFC1F42004D142E /* TrainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainController.h; sourceTree = "<group>"; };
 		C21649051BFC1F42004D142E /* TrainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainController.m; sourceTree = "<group>"; };
+		C26A34391BFCB77F00884F67 /* internReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = internReusableView.h; path = YouPinv1.0/Scences/Intern/Controller/internReusableView.h; sourceTree = SOURCE_ROOT; };
+		C26A343A1BFCB77F00884F67 /* internReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = internReusableView.m; path = YouPinv1.0/Scences/Intern/Controller/internReusableView.m; sourceTree = SOURCE_ROOT; };
+		C26A343C1BFCB87A00884F67 /* InternViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InternViewCell.h; path = YouPinv1.0/Scences/Intern/Controller/InternViewCell.h; sourceTree = SOURCE_ROOT; };
+		C26A343D1BFCB87A00884F67 /* InternViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InternViewCell.m; path = YouPinv1.0/Scences/Intern/Controller/InternViewCell.m; sourceTree = SOURCE_ROOT; };
+		C26A343F1BFCBE9C00884F67 /* StudetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudetViewController.h; sourceTree = "<group>"; };
+		C26A34401BFCBE9C00884F67 /* StudetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudetViewController.m; sourceTree = "<group>"; };
+		C26A34421BFCBF9400884F67 /* StudentViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StudentViewCell.h; path = YouPinv1.0/Scences/Intern/Controller/StudentViewCell.h; sourceTree = SOURCE_ROOT; };
+		C26A34431BFCBF9400884F67 /* StudentViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StudentViewCell.m; path = YouPinv1.0/Scences/Intern/Controller/StudentViewCell.m; sourceTree = SOURCE_ROOT; };
 		E4B1A3B7E2CA56D4770702D3 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -423,6 +435,8 @@
 			children = (
 				C21649011BFC1F28004D142E /* InternController.h */,
 				C21649021BFC1F28004D142E /* InternController.m */,
+				C26A343F1BFCBE9C00884F67 /* StudetViewController.h */,
+				C26A34401BFCBE9C00884F67 /* StudetViewController.m */,
 				32DA60D51BFC700C00CD3D56 /* InternPersonController.h */,
 				32DA60D61BFC700C00CD3D56 /* InternPersonController.m */,
 			);
@@ -432,6 +446,8 @@
 		C21648F81BFC1EFC004D142E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C26A34391BFCB77F00884F67 /* internReusableView.h */,
+				C26A343A1BFCB77F00884F67 /* internReusableView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -441,6 +457,10 @@
 			children = (
 				32DA60CF1BFC674A00CD3D56 /* YPSchool+YPSchoolCategory.h */,
 				32DA60D01BFC674A00CD3D56 /* YPSchool+YPSchoolCategory.m */,
+				C26A343C1BFCB87A00884F67 /* InternViewCell.h */,
+				C26A343D1BFCB87A00884F67 /* InternViewCell.m */,
+				C26A34421BFCBF9400884F67 /* StudentViewCell.h */,
+				C26A34431BFCBF9400884F67 /* StudentViewCell.m */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -642,11 +662,13 @@
 				32DA60DA1BFC702200CD3D56 /* TrainPersonController.m in Sources */,
 				32906C131BFB24D6005802AB /* AppDelegate.m in Sources */,
 				32DA60D71BFC700C00CD3D56 /* InternPersonController.m in Sources */,
+				C26A34441BFCBF9400884F67 /* StudentViewCell.m in Sources */,
 				32906C101BFB24D6005802AB /* main.m in Sources */,
 				32DA60D41BFC6FF500CD3D56 /* CompanyPersonController.m in Sources */,
 				32A28F661BFB474700269C13 /* FMDatabase.m in Sources */,
 				32906C471BFB2845005802AB /* YPSchool.m in Sources */,
 				32A28F6A1BFB474700269C13 /* FMResultSet.m in Sources */,
+				C26A34411BFCBE9C00884F67 /* StudetViewController.m in Sources */,
 				C21649001BFC1F0F004D142E /* CompanyController.m in Sources */,
 				C21649061BFC1F42004D142E /* TrainController.m in Sources */,
 				32906C531BFB28B6005802AB /* YPCity.m in Sources */,
@@ -654,6 +676,7 @@
 				C21649031BFC1F28004D142E /* InternController.m in Sources */,
 				32DA60D11BFC674A00CD3D56 /* YPSchool+YPSchoolCategory.m in Sources */,
 				32906C411BFB2797005802AB /* TabBarController.m in Sources */,
+				C26A343E1BFCB87A00884F67 /* InternViewCell.m in Sources */,
 				32A28F721BFB478100269C13 /* ColorUtils.m in Sources */,
 				32A28F671BFB474700269C13 /* FMDatabaseAdditions.m in Sources */,
 				32A28F751BFB4A9300269C13 /* Constants.m in Sources */,
@@ -661,6 +684,7 @@
 				32906C4A1BFB2862005802AB /* YPSkill.m in Sources */,
 				32906C5C1BFB2DD4005802AB /* YPJob.m in Sources */,
 				32906C3E1BFB2779005802AB /* BasicController.m in Sources */,
+				C26A343B1BFCB77F00884F67 /* internReusableView.m in Sources */,
 				32906C441BFB281A005802AB /* YPOrgization.m in Sources */,
 				32906C4D1BFB287A005802AB /* YPUser.m in Sources */,
 				32906C3B1BFB2754005802AB /* BasicModel.m in Sources */,

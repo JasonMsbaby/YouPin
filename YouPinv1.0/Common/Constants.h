@@ -11,7 +11,8 @@
 #define color_white @"000000"
 #define color_background @""
 
-
+#define ScreenWidth [UIScreen mainScreen].bounds.size.width
+#define ScreenHeight [UIScreen mainScreen].bounds.size.height
 
 @interface Constants : NSObject
 
