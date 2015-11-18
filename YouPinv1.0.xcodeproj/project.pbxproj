@@ -55,6 +55,13 @@
 		C21649001BFC1F0F004D142E /* CompanyController.m in Sources */ = {isa = PBXBuildFile; fileRef = C21648FF1BFC1F0F004D142E /* CompanyController.m */; };
 		C21649031BFC1F28004D142E /* InternController.m in Sources */ = {isa = PBXBuildFile; fileRef = C21649021BFC1F28004D142E /* InternController.m */; };
 		C21649061BFC1F42004D142E /* TrainController.m in Sources */ = {isa = PBXBuildFile; fileRef = C21649051BFC1F42004D142E /* TrainController.m */; };
+		C216495C1BFC7CE9004D142E /* CompanyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C216495B1BFC7CE9004D142E /* CompanyCell.m */; };
+		C216495F1BFC7D7A004D142E /* YPCompony+YPCompanyCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = C216495E1BFC7D7A004D142E /* YPCompony+YPCompanyCategory.m */; };
+		C21649621BFCAB5A004D142E /* TabelViewHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = C21649611BFCAB5A004D142E /* TabelViewHeadView.m */; };
+		C21649661BFCAD12004D142E /* CompanyHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = C21649651BFCAD12004D142E /* CompanyHeader.xib */; };
+		C216496A1BFCBB02004D142E /* CompanyDitailController.m in Sources */ = {isa = PBXBuildFile; fileRef = C21649681BFCBB02004D142E /* CompanyDitailController.m */; };
+		C216496B1BFCBB02004D142E /* CompanyDitailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C21649691BFCBB02004D142E /* CompanyDitailController.xib */; };
+		C216496E1BFCBE6F004D142E /* CompanyDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = C216496D1BFCBE6F004D142E /* CompanyDetailView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -138,6 +145,18 @@
 		C21649021BFC1F28004D142E /* InternController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InternController.m; sourceTree = "<group>"; };
 		C21649041BFC1F42004D142E /* TrainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainController.h; sourceTree = "<group>"; };
 		C21649051BFC1F42004D142E /* TrainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainController.m; sourceTree = "<group>"; };
+		C216495A1BFC7CE9004D142E /* CompanyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompanyCell.h; sourceTree = "<group>"; };
+		C216495B1BFC7CE9004D142E /* CompanyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompanyCell.m; sourceTree = "<group>"; };
+		C216495D1BFC7D7A004D142E /* YPCompony+YPCompanyCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YPCompony+YPCompanyCategory.h"; sourceTree = "<group>"; };
+		C216495E1BFC7D7A004D142E /* YPCompony+YPCompanyCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YPCompony+YPCompanyCategory.m"; sourceTree = "<group>"; };
+		C21649601BFCAB5A004D142E /* TabelViewHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabelViewHeadView.h; sourceTree = "<group>"; };
+		C21649611BFCAB5A004D142E /* TabelViewHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabelViewHeadView.m; sourceTree = "<group>"; };
+		C21649651BFCAD12004D142E /* CompanyHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CompanyHeader.xib; sourceTree = "<group>"; };
+		C21649671BFCBB02004D142E /* CompanyDitailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompanyDitailController.h; sourceTree = "<group>"; };
+		C21649681BFCBB02004D142E /* CompanyDitailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompanyDitailController.m; sourceTree = "<group>"; };
+		C21649691BFCBB02004D142E /* CompanyDitailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CompanyDitailController.xib; sourceTree = "<group>"; };
+		C216496C1BFCBE6F004D142E /* CompanyDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompanyDetailView.h; sourceTree = "<group>"; };
+		C216496D1BFCBE6F004D142E /* CompanyDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompanyDetailView.m; sourceTree = "<group>"; };
 		E4B1A3B7E2CA56D4770702D3 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -367,6 +386,8 @@
 			isa = PBXGroup;
 			children = (
 				C21648F21BFC1EFC004D142E /* Company */,
+				C21649551BFC77D0004D142E /* View */,
+				C21649561BFC77D0004D142E /* ViewModel */,
 				C21648F61BFC1EFC004D142E /* Intern */,
 				C21648FA1BFC1EFC004D142E /* Train */,
 			);
@@ -377,8 +398,6 @@
 			isa = PBXGroup;
 			children = (
 				C21648F31BFC1EFC004D142E /* Controller */,
-				C21648F41BFC1EFC004D142E /* View */,
-				C21648F51BFC1EFC004D142E /* ViewModel */,
 			);
 			path = Company;
 			sourceTree = "<group>";
@@ -390,22 +409,11 @@
 				C21648FF1BFC1F0F004D142E /* CompanyController.m */,
 				32DA60D21BFC6FF500CD3D56 /* CompanyPersonController.h */,
 				32DA60D31BFC6FF500CD3D56 /* CompanyPersonController.m */,
+				C21649671BFCBB02004D142E /* CompanyDitailController.h */,
+				C21649681BFCBB02004D142E /* CompanyDitailController.m */,
+				C21649691BFCBB02004D142E /* CompanyDitailController.xib */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		C21648F41BFC1EFC004D142E /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		C21648F51BFC1EFC004D142E /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		C21648F61BFC1EFC004D142E /* Intern */ = {
@@ -480,6 +488,31 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		C21649551BFC77D0004D142E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C216495A1BFC7CE9004D142E /* CompanyCell.h */,
+				C216495B1BFC7CE9004D142E /* CompanyCell.m */,
+				C21649601BFCAB5A004D142E /* TabelViewHeadView.h */,
+				C21649611BFCAB5A004D142E /* TabelViewHeadView.m */,
+				C216496C1BFCBE6F004D142E /* CompanyDetailView.h */,
+				C216496D1BFCBE6F004D142E /* CompanyDetailView.m */,
+				C21649651BFCAD12004D142E /* CompanyHeader.xib */,
+			);
+			name = View;
+			path = Company/View;
+			sourceTree = "<group>";
+		};
+		C21649561BFC77D0004D142E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C216495D1BFC7D7A004D142E /* YPCompony+YPCompanyCategory.h */,
+				C216495E1BFC7D7A004D142E /* YPCompony+YPCompanyCategory.m */,
+			);
+			name = ViewModel;
+			path = Company/ViewModel;
+			sourceTree = "<group>";
+		};
 		F096D2B5357F181DBF479518 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -549,6 +582,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C21649661BFCAD12004D142E /* CompanyHeader.xib in Resources */,
 				32352AF11BFC59940084B2ED /* up@2x.png in Resources */,
 				32352AF41BFC59940084B2ED /* uploading@3x.png in Resources */,
 				32352AE31BFC59940084B2ED /* company@2x.png in Resources */,
@@ -562,6 +596,7 @@
 				32352AE51BFC59940084B2ED /* daxue@2x.png in Resources */,
 				32352AE81BFC59940084B2ED /* DX@3x.png in Resources */,
 				32352AE11BFC59940084B2ED /* center@2x.png in Resources */,
+				C216496B1BFCBB02004D142E /* CompanyDitailController.xib in Resources */,
 				32352AEF1BFC59940084B2ED /* ITcmopany@2x.png in Resources */,
 				32352AEE1BFC59940084B2ED /* geren@3x.png in Resources */,
 				32906C1E1BFB24D6005802AB /* LaunchScreen.storyboard in Resources */,
@@ -639,6 +674,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				32906C561BFB2909005802AB /* YPCompony.m in Sources */,
+				C216496E1BFCBE6F004D142E /* CompanyDetailView.m in Sources */,
 				32DA60DA1BFC702200CD3D56 /* TrainPersonController.m in Sources */,
 				32906C131BFB24D6005802AB /* AppDelegate.m in Sources */,
 				32DA60D71BFC700C00CD3D56 /* InternPersonController.m in Sources */,
@@ -648,7 +684,9 @@
 				32906C471BFB2845005802AB /* YPSchool.m in Sources */,
 				32A28F6A1BFB474700269C13 /* FMResultSet.m in Sources */,
 				C21649001BFC1F0F004D142E /* CompanyController.m in Sources */,
+				C216496A1BFCBB02004D142E /* CompanyDitailController.m in Sources */,
 				C21649061BFC1F42004D142E /* TrainController.m in Sources */,
+				C216495C1BFC7CE9004D142E /* CompanyCell.m in Sources */,
 				32906C531BFB28B6005802AB /* YPCity.m in Sources */,
 				32A28F6E1BFB477600269C13 /* MBProgressHUD.m in Sources */,
 				C21649031BFC1F28004D142E /* InternController.m in Sources */,
@@ -666,6 +704,8 @@
 				32906C3B1BFB2754005802AB /* BasicModel.m in Sources */,
 				32906C591BFB2BEB005802AB /* YPRole.m in Sources */,
 				32A28F681BFB474700269C13 /* FMDatabasePool.m in Sources */,
+				C216495F1BFC7D7A004D142E /* YPCompony+YPCompanyCategory.m in Sources */,
+				C21649621BFCAB5A004D142E /* TabelViewHeadView.m in Sources */,
 				32A28F691BFB474700269C13 /* FMDatabaseQueue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
