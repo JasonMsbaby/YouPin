@@ -34,7 +34,7 @@
 
     TrainController *trainVC = [TrainController new];
     trainVC.title = @"培训生";
-    trainVC.tabBarItem.image = [UIImage imageNamed:@"EDTA"];
+    trainVC.tabBarItem.image = [UIImage imageNamed:@"DX"];
     
     
     UIViewController *person = nil;
