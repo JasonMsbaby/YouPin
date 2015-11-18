@@ -64,6 +64,7 @@
         [ncs addObject:nc];
     }
     self.viewControllers = ncs;
+    self.selectedIndex = 2;
 }
 
 

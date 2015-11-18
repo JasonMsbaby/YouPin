@@ -7,7 +7,7 @@
 //
 #import <AVUser.h>
 #import "BasicModel.h"
-
+//#import "YPUser+User.h"
 @interface YPUser : AVUser
 
 @end
