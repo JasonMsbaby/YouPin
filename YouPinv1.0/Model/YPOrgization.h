@@ -27,4 +27,5 @@
 @property(nonatomic,strong) YPCity *city;//城市外键
 @property(nonatomic,strong) NSString *logo_big;//大logo
 @property(nonatomic,strong) NSString *logo_small;//小logo
+@property(nonatomic,assign) BOOL *isDisplay;//是否显示
 @end

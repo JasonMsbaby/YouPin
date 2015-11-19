@@ -16,7 +16,7 @@
     dispatch_once(&onceToken, ^{
         [[self class]registerSubclass];
     });
-    return [super object];
+    return [super user];
 }
 
 @end

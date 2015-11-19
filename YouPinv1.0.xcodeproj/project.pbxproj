@@ -51,6 +51,14 @@
 		32DA60D41BFC6FF500CD3D56 /* CompanyPersonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DA60D31BFC6FF500CD3D56 /* CompanyPersonController.m */; };
 		32DA60D71BFC700C00CD3D56 /* InternPersonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DA60D61BFC700C00CD3D56 /* InternPersonController.m */; };
 		32DA60DA1BFC702200CD3D56 /* TrainPersonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DA60D91BFC702200CD3D56 /* TrainPersonController.m */; };
+		32DC77E01BFC7CD200ECA782 /* TrainReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DC77DF1BFC7CD200ECA782 /* TrainReusableView.m */; };
+		32DC77E31BFC7D4400ECA782 /* TrainCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DC77E21BFC7D4400ECA782 /* TrainCell.m */; };
+		32DC77FB1BFC9F2B00ECA782 /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DC77F91BFC9F2B00ECA782 /* LoginController.m */; };
+		32DC77FC1BFC9F2B00ECA782 /* LoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32DC77FA1BFC9F2B00ECA782 /* LoginController.xib */; };
+		32DC78001BFCA3EE00ECA782 /* RegistController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DC77FE1BFCA3EE00ECA782 /* RegistController.m */; };
+		32DC78011BFCA3EE00ECA782 /* RegistController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32DC77FF1BFCA3EE00ECA782 /* RegistController.xib */; };
+		32DC78041BFCB34A00ECA782 /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DC78031BFCB34A00ECA782 /* Tools.m */; };
+		32DC78071BFCBB3000ECA782 /* YPUser+User.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DC78061BFCBB3000ECA782 /* YPUser+User.m */; };
 		607B8B8AF40A27C1285B74E1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7867214710274AF0AB88B78 /* libPods.a */; };
 		C21649001BFC1F0F004D142E /* CompanyController.m in Sources */ = {isa = PBXBuildFile; fileRef = C21648FF1BFC1F0F004D142E /* CompanyController.m */; };
 		C21649031BFC1F28004D142E /* InternController.m in Sources */ = {isa = PBXBuildFile; fileRef = C21649021BFC1F28004D142E /* InternController.m */; };
@@ -137,6 +145,20 @@
 		32DA60D61BFC700C00CD3D56 /* InternPersonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InternPersonController.m; sourceTree = "<group>"; };
 		32DA60D81BFC702200CD3D56 /* TrainPersonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainPersonController.h; sourceTree = "<group>"; };
 		32DA60D91BFC702200CD3D56 /* TrainPersonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainPersonController.m; sourceTree = "<group>"; };
+		32DC77DE1BFC7CD200ECA782 /* TrainReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TrainReusableView.h; path = YouPinv1.0/Scences/Train/Controller/TrainReusableView.h; sourceTree = SOURCE_ROOT; };
+		32DC77DF1BFC7CD200ECA782 /* TrainReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TrainReusableView.m; path = YouPinv1.0/Scences/Train/Controller/TrainReusableView.m; sourceTree = SOURCE_ROOT; };
+		32DC77E11BFC7D4400ECA782 /* TrainCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TrainCell.h; path = YouPinv1.0/Scences/Train/Controller/TrainCell.h; sourceTree = SOURCE_ROOT; };
+		32DC77E21BFC7D4400ECA782 /* TrainCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TrainCell.m; path = YouPinv1.0/Scences/Train/Controller/TrainCell.m; sourceTree = SOURCE_ROOT; };
+		32DC77F81BFC9F2B00ECA782 /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
+		32DC77F91BFC9F2B00ECA782 /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
+		32DC77FA1BFC9F2B00ECA782 /* LoginController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoginController.xib; path = ../Controller/LoginController.xib; sourceTree = "<group>"; };
+		32DC77FD1BFCA3EE00ECA782 /* RegistController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistController.h; sourceTree = "<group>"; };
+		32DC77FE1BFCA3EE00ECA782 /* RegistController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistController.m; sourceTree = "<group>"; };
+		32DC77FF1BFCA3EE00ECA782 /* RegistController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RegistController.xib; path = ../Controller/RegistController.xib; sourceTree = "<group>"; };
+		32DC78021BFCB34A00ECA782 /* Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
+		32DC78031BFCB34A00ECA782 /* Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tools.m; sourceTree = "<group>"; };
+		32DC78051BFCBB3000ECA782 /* YPUser+User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YPUser+User.h"; sourceTree = "<group>"; };
+		32DC78061BFCBB3000ECA782 /* YPUser+User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YPUser+User.m"; sourceTree = "<group>"; };
 		594110FC83E850BDEA1B18A9 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		B7867214710274AF0AB88B78 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C21648FE1BFC1F0F004D142E /* CompanyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompanyController.h; sourceTree = "<group>"; };
@@ -283,6 +305,8 @@
 			children = (
 				32A28F731BFB4A9300269C13 /* Constants.h */,
 				32A28F741BFB4A9300269C13 /* Constants.m */,
+				32DC78021BFCB34A00ECA782 /* Tools.h */,
+				32DC78031BFCB34A00ECA782 /* Tools.m */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -365,6 +389,45 @@
 			path = ColorUtils;
 			sourceTree = "<group>";
 		};
+		32DC77E41BFC826A00ECA782 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				32DC77E51BFC826A00ECA782 /* Controller */,
+				32DC77E61BFC826A00ECA782 /* View */,
+				32DC77E71BFC826A00ECA782 /* ViewModel */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		32DC77E51BFC826A00ECA782 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				32DC77F81BFC9F2B00ECA782 /* LoginController.h */,
+				32DC77F91BFC9F2B00ECA782 /* LoginController.m */,
+				32DC77FD1BFCA3EE00ECA782 /* RegistController.h */,
+				32DC77FE1BFCA3EE00ECA782 /* RegistController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		32DC77E61BFC826A00ECA782 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				32DC77FF1BFCA3EE00ECA782 /* RegistController.xib */,
+				32DC77FA1BFC9F2B00ECA782 /* LoginController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		32DC77E71BFC826A00ECA782 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				32DC78051BFCBB3000ECA782 /* YPUser+User.h */,
+				32DC78061BFCBB3000ECA782 /* YPUser+User.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		B3B68A09084B6B2A4E701B51 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -377,6 +440,7 @@
 		C21648F11BFC1EFC004D142E /* Scences */ = {
 			isa = PBXGroup;
 			children = (
+				32DC77E41BFC826A00ECA782 /* Main */,
 				C21648F21BFC1EFC004D142E /* Company */,
 				C21649551BFC77D0004D142E /* View */,
 				C21649561BFC77D0004D142E /* ViewModel */,
@@ -469,6 +533,10 @@
 		C21648FC1BFC1EFC004D142E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				32DC77DE1BFC7CD200ECA782 /* TrainReusableView.h */,
+				32DC77DF1BFC7CD200ECA782 /* TrainReusableView.m */,
+				32DC77E11BFC7D4400ECA782 /* TrainCell.h */,
+				32DC77E21BFC7D4400ECA782 /* TrainCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -586,10 +654,12 @@
 				32352AE71BFC59940084B2ED /* DX@2x.png in Resources */,
 				32352AF31BFC59940084B2ED /* uploading@2x.png in Resources */,
 				32352AE51BFC59940084B2ED /* daxue@2x.png in Resources */,
+				32DC77FC1BFC9F2B00ECA782 /* LoginController.xib in Resources */,
 				32352AE81BFC59940084B2ED /* DX@3x.png in Resources */,
 				32352AE11BFC59940084B2ED /* center@2x.png in Resources */,
 				C216496B1BFCBB02004D142E /* CompanyDitailController.xib in Resources */,
 				32352AEF1BFC59940084B2ED /* ITcmopany@2x.png in Resources */,
+				32DC78011BFCA3EE00ECA782 /* RegistController.xib in Resources */,
 				32352AEE1BFC59940084B2ED /* geren@3x.png in Resources */,
 				32906C1E1BFB24D6005802AB /* LaunchScreen.storyboard in Resources */,
 				32906C1B1BFB24D6005802AB /* Assets.xcassets in Resources */,
@@ -669,6 +739,7 @@
 				C216496E1BFCBE6F004D142E /* CompanyDetailView.m in Sources */,
 				32DA60DA1BFC702200CD3D56 /* TrainPersonController.m in Sources */,
 				32906C131BFB24D6005802AB /* AppDelegate.m in Sources */,
+				32DC77E31BFC7D4400ECA782 /* TrainCell.m in Sources */,
 				32DA60D71BFC700C00CD3D56 /* InternPersonController.m in Sources */,
 				32906C101BFB24D6005802AB /* main.m in Sources */,
 				32DA60D41BFC6FF500CD3D56 /* CompanyPersonController.m in Sources */,
@@ -686,15 +757,18 @@
 				32906C411BFB2797005802AB /* TabBarController.m in Sources */,
 				32A28F721BFB478100269C13 /* ColorUtils.m in Sources */,
 				32A28F671BFB474700269C13 /* FMDatabaseAdditions.m in Sources */,
+				32DC77FB1BFC9F2B00ECA782 /* LoginController.m in Sources */,
 				32A28F751BFB4A9300269C13 /* Constants.m in Sources */,
 				32906C501BFB28A8005802AB /* YPEmployment.m in Sources */,
 				32906C4A1BFB2862005802AB /* YPSkill.m in Sources */,
 				32906C5C1BFB2DD4005802AB /* YPJob.m in Sources */,
 				32906C3E1BFB2779005802AB /* BasicController.m in Sources */,
+				32DC78071BFCBB3000ECA782 /* YPUser+User.m in Sources */,
 				32906C441BFB281A005802AB /* YPOrgization.m in Sources */,
 				32906C4D1BFB287A005802AB /* YPUser.m in Sources */,
 				32906C3B1BFB2754005802AB /* BasicModel.m in Sources */,
 				32906C591BFB2BEB005802AB /* YPRole.m in Sources */,
+				32DC78001BFCA3EE00ECA782 /* RegistController.m in Sources */,
 				32A28F681BFB474700269C13 /* FMDatabasePool.m in Sources */,
 				C216495F1BFC7D7A004D142E /* YPCompony+YPCompanyCategory.m in Sources */,
 				C21649621BFCAB5A004D142E /* TabelViewHeadView.m in Sources */,

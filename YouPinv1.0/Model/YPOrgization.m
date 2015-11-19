@@ -21,6 +21,6 @@
 @dynamic city;//城市外键
 @dynamic logo_big;//大logo
 @dynamic logo_small;//小logo
-
+@dynamic isDisplay;//是否显示
 
 @end
